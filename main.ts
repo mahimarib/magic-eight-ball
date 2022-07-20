@@ -1,5 +1,5 @@
 input.onGesture(Gesture.Shake, function () {
-    basic.showString("" + (list[randint(0, list.length - 1)]))
+    basic.showString("" + (list._pickRandom()))
 })
 let list: string[] = []
 list = [
